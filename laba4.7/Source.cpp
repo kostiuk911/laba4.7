@@ -22,7 +22,7 @@ int main()
 	while (x <= xk)
 	{
 		n = 0; 
-		a = x; 
+		a = pow(x , 2 * n + 1) / (2 * n + 1); 
 		S = a;
 		do {
 			n++;
